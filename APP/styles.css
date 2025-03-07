@@ -1,0 +1,70 @@
+/* Estilo simple para los elementos */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+button.edit, button.save {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.edit:hover, button.save:hover {
+  background-color: #ff7f00;
+}
+
+button.delete {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.delete:hover {
+  background-color: #e53935;
+}
